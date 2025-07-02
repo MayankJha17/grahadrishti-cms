@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "astrology_articles",
+  "info": {
+    "singularName": "astrology-article",
+    "pluralName": "astrology-articles",
+    "displayName": "AstrologyArticle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ArticleType": {
+      "type": "string"
+    },
+    "Heading": {
+      "type": "text"
+    },
+    "SubHeading": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}
