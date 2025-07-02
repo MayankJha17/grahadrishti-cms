@@ -462,6 +462,7 @@ export interface ApiAstrologyArticleAstrologyArticle
     Date: Schema.Attribute.Date;
     Description: Schema.Attribute.String;
     Heading: Schema.Attribute.Text;
+    isFeatured: Schema.Attribute.Boolean;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

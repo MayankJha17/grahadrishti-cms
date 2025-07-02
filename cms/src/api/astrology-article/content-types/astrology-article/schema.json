@@ -25,6 +25,9 @@
     },
     "Description": {
       "type": "string"
+    },
+    "isFeatured": {
+      "type": "boolean"
     }
   }
 }
